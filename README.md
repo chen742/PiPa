@@ -51,7 +51,9 @@ following script.
 sh tools/download_checkpoints.sh
 ```
 
-## Datasets Preparation
+## Prepare Data
+
+Download [GTA5], [Synthia] and [Cityscapes] to run the basic code.
 
 **Cityscapes:** download leftImg8bit_trainvaltest.zip and
 gt_trainvaltest.zip from [here](https://www.cityscapes-dataset.com/downloads/)
@@ -64,7 +66,7 @@ them to `data/gta`.
 **Synthia:** download SYNTHIA-RAND-CITYSCAPES from
 [here](http://synthia-dataset.net/downloads/) and extract it to `data/synthia`.
 
-The final folder structure should look like this:
+The data folder is structured as follows:
 
 ```none
 PiPa
@@ -96,6 +98,7 @@ python tools/convert_datasets/cityscapes.py data/cityscapes --nproc 8
 python tools/convert_datasets/synthia.py data/synthia/ --nproc 8
 ```
 
+
 ## Testing
 
 We provide pretrained models below for PiPa based on hrda.
@@ -122,14 +125,14 @@ The logs and checkpoints are stored in `work_dirs/`.
 
 ## Acknowledgements
 
-PiPa is based on the following open-source projects. We thank their
-authors for making the source code publicly available.
+We thank the authors of the following open-source projects for making the code publicly available.
 
 * [HRDA](https://github.com/lhoyer/HRDA)
 * [DAFormer](https://github.com/lhoyer/DAFormer)
 * [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)
 * [SegFormer](https://github.com/NVlabs/SegFormer)
 * [DACS](https://github.com/vikolss/DACS)
+* [Seg-Uncertainty](https://github.com/layumi/Seg-Uncertainty)
 
 ## Citation
 
