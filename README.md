@@ -3,7 +3,7 @@
 # PiPa: Pixel- and Patch-wise Self-supervised Learning for Domain Adaptative Semantic Segmentation
 
 
-**by [Mu Chen]([https://github.com/chen742](https://scholar.google.com/citations?hl=en&user=eyBlZUUAAAAJ)), [Zhedong Zheng](https://zdzheng.xyz/), [Yi Yang](https://scholar.google.com.au/citations?user=RMSuNFwAAAAJ&hl=en), 
+**by [Mu Chen](https://github.com/chen742](https://scholar.google.com/citations?hl=en&user=eyBlZUUAAAAJ), [Zhedong Zheng](https://zdzheng.xyz/), [Yi Yang](https://scholar.google.com.au/citations?user=RMSuNFwAAAAJ&hl=en), 
 and [Tat-Seng Chua](https://scholar.google.com.sg/citations?user=Z9DWCBEAAAAJ&hl=en)**
 </div>
 
