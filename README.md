@@ -7,6 +7,8 @@
 and [Tat-Seng Chua](https://scholar.google.com.sg/citations?user=Z9DWCBEAAAAJ&hl=en)**
 </div>
 
+**Update at 26/07/2023, The paper is accepted by ACM Multmedia 2023.**
+
 **Update at 14/11/2022, ArXiv Version of [PiPa](https://arxiv.org/abs/2211.07609) is available.**
 
 **Update at 13/12/2022, Code and Checkpoints release**
@@ -142,7 +144,7 @@ If you find this work helpful to your research, please consider citing the paper
 @article{chen2022pipa,
   title={PiPa: Pixel-and Patch-wise Self-supervised Learning for Domain Adaptative Semantic Segmentation},
   author={Chen, Mu and Zheng, Zhedong and Yang, Yi and Chua, Tat-Seng},
-  journal={arXiv preprint arXiv:2211.07609},
-  year={2022}
+  journal={ACM Multimedia},
+  year={2023}
 }
 ```
