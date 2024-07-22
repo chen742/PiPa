@@ -7,6 +7,9 @@
 and [Tat-Seng Chua](https://scholar.google.com.sg/citations?user=Z9DWCBEAAAAJ&hl=en)**
 </div>
 
+
+**Update at 22/07/2024, Our follow-up work [DCF](https://arxiv.org/abs/2311.12682) on UDA is accepted at ACM Multmedia 2024 as Oral Presentation (Score 6/5/5).**
+
 **Update at 26/07/2023, The paper is accepted by ACM Multmedia 2023.**
 
 **Update at 14/11/2022, ArXiv Version of [PiPa](https://arxiv.org/abs/2211.07609) is available.**
@@ -146,5 +149,12 @@ If you find this work helpful to your research, please consider citing the paper
   author={Chen, Mu and Zheng, Zhedong and Yang, Yi and Chua, Tat-Seng},
   journal={ACM Multimedia},
   year={2023}
+}
+
+@inproceedings{chen2024transferring,
+  title={Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation},
+  author={Chen, Mu and Zheng, Zhedong and Yang, Yi },
+  booktitle={ACM Multimedia},
+  year={2024}
 }
 ```
