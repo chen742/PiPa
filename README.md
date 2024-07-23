@@ -144,10 +144,10 @@ We thank the authors of the following open-source projects for making the code p
 If you find this work helpful to your research, please consider citing the paper:
 
 ```bibtex
-@article{chen2022pipa,
-  title={PiPa: Pixel-and Patch-wise Self-supervised Learning for Domain Adaptative Semantic Segmentation},
+@inproceedings{chen2023pipa,
+  title={Pipa: Pixel-and patch-wise self-supervised learning for domain adaptative semantic segmentation},
   author={Chen, Mu and Zheng, Zhedong and Yang, Yi and Chua, Tat-Seng},
-  journal={ACM Multimedia},
+  booktitle={ACM Multimedia},
   year={2023}
 }
 
