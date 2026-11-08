@@ -132,7 +132,7 @@ class PairVOCDataset(BaseDataSet):
 
         try:
             assert (overlap1_br[0]-overlap1_ul[0]) * (overlap1_br[1]-overlap1_ul[1]) == (overlap2_br[0]-overlap2_ul[0]) * (overlap2_br[1]-overlap2_ul[1])
-        except:
+        except AssertionError:
             print("h: {}, w: {}".format(h, w))
             print("image.shape: ", image.shape)
             print("x1: {}, x2: {}, y1: {}, y2: {}".format(x1, x2, y1, y2))
@@ -151,7 +151,7 @@ class PairVOCDataset(BaseDataSet):
 
         try:
             assert image1[overlap1_ul[0]:overlap1_br[0], overlap1_ul[1]:overlap1_br[1]].shape == image2[overlap2_ul[0]:overlap2_br[0], overlap2_ul[1]:overlap2_br[1]].shape
-        except:
+        except AssertionError:
             print("h: {}, w: {}".format(h, w))
             print("image.shape: ", image.shape)
             print("x1: {}, x2: {}, y1: {}, y2: {}".format(x1, x2, y1, y2))
